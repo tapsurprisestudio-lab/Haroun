@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haroun Abdul Aal</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Splash Screen -->
+<div id="splash">
+  <div class="circle-intro">
+    <img src="https://i.imgur.com/WYKnbs1.jpeg" alt="Haroun">
+    <h1 id="welcomeText">Welcome to my world</h1>
+    <button id="enterBtn">Enter</button>
+  </div>
+</div>
+
+<!-- Navigation -->
+<header>
+  <div class="logo">HAROUN</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="story.html">Story</a>
+    <a href="contact.html">Connect</a>
+    <a href="reviews.html">Reviews</a>
+  </nav>
+  <div class="lang">
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('ar')">AR</button>
+    <button onclick="setLang('de')">DE</button>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 class="big-name">Haroun Abdul Aal</h1>
+  <p class="subtitle">From Syria 🇸🇾 to Germany 🇩🇪 – Sharing Life Daily</p>
+
+  <div class="social-grid">
+    <a href="https://www.instagram.com/haron._.11?igsh=MWlxbGpueTdqcWpiNQ==" target="_blank" class="neon-card">Instagram</a>
+    <a href="https://www.tiktok.com/@haron._.11?_r=1&_t=ZG-948yS8SsIFc" target="_blank" class="neon-card">TikTok</a>
+    <a href="https://www.facebook.com/share/1GW7BTp1qi/?mibextid=wwXIfr" target="_blank" class="neon-card">Facebook</a>
+    <a href="https://wa.me/905366720667" target="_blank" class="neon-card">WhatsApp</a>
+    <a href="mailto:haronnne11@gmail.com" class="neon-card">Email</a>
+  </div>
+</section>
+
+<!-- Chatbot -->
+<div id="chatbotBtn">💬</div>
+<div id="chatbot">
+  <div class="chat-header">Haron AI</div>
+  <div id="chatContent"></div>
+</div>
+
+<script src="js/lang.js"></script>
+<script src="js/chatbot.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
